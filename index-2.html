@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Renault - Funcionarios</title>
+</head>
+<body>
+    <header class="cabecalho" >
+      
+   
+        <nav class="cabecalho-menu" >
+          <a href="index-1.html">Fornecedores</a>
+          <a href="index-2.html">Funcionarios</a>
+        </nav>
+         <a href="/"><img id="logo" src="imagens/logo_renault.jpg" ></a> 
+        <nav class="cabecalho-menu2" >
+          <a href="index-3.html">Pedido</a>
+          <a href="index-4.html">Histórico de vendas</a>
+        </nav>
+        
+     </header>
+
+ <main class="conteudo-funci" >
+
+      <section>
+
+       <div class="cadastrar" >
+
+        <div class="input2">
+           <input id="NomeFunci" type="text" required="required">
+           <span>Nome completo</span>
+           <br>
+           <br>
+           <input id="CpfFunci" type="text" required="required">
+           <span>CPF</span>
+           <br>
+           <br>
+
+           <select id="SexoFunci" name="sexo">
+              <option value="0">Sexo:</option>
+             <option value="Masculino">Masculino</option>
+             <option value="Feminino">Feminino</option>
+           </select>
+           <br>
+           <br>
+           <input id="EndeFunci" type="text" required="required">
+           <span>Endereço</span>
+           <br>
+           <br>
+           <select id="SetorFunci" name="sexo">
+            <option value="0">Setor</option>
+           <option value="Montagem">Montagem</option>
+           <option value="Supervisor">Supervisor</option>
+           <option value="RH">RH</option>
+           <option value="Qualidade">Qualidade</option>
+           <option value="Logistica">Logistica</option>
+           <option value="Manutenção">Manutenção</option>
+           <option value="Vendas">Vendas</option>
+           <option value="Advocacia">Advocacia</option>
+         </select>
+           <br>
+           <br>
+             <input id="AdimFunci" type="date" required="required">
+              <span>Admissão</span>
+        </div>
+        <a> <button class="botao" onclick="CadastrarFunci()">Cadastrar</button></a>
+        <a ><button class="botao2" onclick="ExibirDados()" >Exibir</button></a>
+       </div>
+
+        <div class="exibir">
+           <div class="input3">
+              <span>Nome completo</span>
+              <input id="exibirNome" type="text" required="required">
+              <br>
+              <br>
+              <span>CPF</span>
+              <input id="exibirCpf" type="text" required="required">
+              <br>
+              <br>
+              <span>Sexo</span>
+              <input id="exibirSexo" type="text" required="required">
+              <br>
+              <br>
+              <span>Endereço</span>
+              <input id="exibirEndereco" type="text" required="required">
+              <br>
+              <br>
+           
+              <br>
+              <br>
+              <span>Chefe</span>
+              <input id="exibirChefe" type="text" required="required">
+             
+        
+      </section>
+   </main>
+
+     <footer class="rodape" >
+        <p  class="texto1-rodape">Renault.com.br</p>
+        <p class="texto2-rodape">Localização: São José dos Pinhais</p>
+   </footer>
+
+   <script src="main.js" ></script>
+</body>
+</html>

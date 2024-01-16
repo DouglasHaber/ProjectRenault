@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Renault - Pedidos</title>
+</head>
+<body>
+    <header class="cabecalho" >
+      
+   
+        <nav class="cabecalho-menu" >
+          <a href="index-1.html">Fornecedores</a>
+          <a href="index-2.html">Funcionarios</a>
+        </nav>
+         <a href="/"><img id="logo" src="imagens/logo_renault.jpg" ></a> 
+        <nav class="cabecalho-menu2" >
+          <a href="index-3.html">Pedido</a>
+          <a href="index-4.html">Histórico de vendas</a>
+        </nav>
+        
+   
+         </header>
+
+<main class="conteudo-pedido">
+
+ <section>
+    <div class="cadastrar-pedido" >
+
+        <div class="input2">
+           <input  id="NomeCliente" type="text" required="required">
+           <span>Nome do cliente</span>
+           <br>
+           <br>
+          
+         <select id="selecao" name="plataforma" required="required">
+              <option value="">Veículo pedido</option>
+              <option value="captur">Captur</option>
+              <option value="oroch">Oroch</option>
+              <option value="logan">Logan</option>
+              <option value="duster">Duster</option>
+              <option value="kwid">Kwid</option>
+         </select>
+       
+         <div class="date1">
+         <input id="DataPedido" type="date" required="required">
+         <span>Data do pedido</span>
+        </div>
+        </div>
+        
+        <br>
+        <br>
+        <a><button class="botao" onclick="CadastrarCompra()" >Cadastrar compra</button></a>
+    </div>
+
+
+   </section>
+   <section>
+     <img class="conceito" src="imagens/conceito.jpg" alt="">
+   </section>
+
+
+
+</main>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+ <footer class="rodape" >
+      <p  class="texto1-rodape">Renault.com.br</p>
+      <p class="texto2-rodape">Localização: São José dos Pinhais</p>
+ </footer>
+
+
+ <script src="main.js" ></script>
+</body>
+
+
+</html>

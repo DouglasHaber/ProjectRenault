@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+}
+
+header{
+   background-color: black;
+    width: 1350px;
+    height: 150px;
+}
+
+#logo{
+    width: 150px;
+    height: 150px;
+    margin-left: 260px;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    width: 1583px;
+  align-items: center;
+ 
+}
+
+.cabecalho-menu{
+    font-family: 'Akshar', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 200px;
+    display: flex;
+    gap: 60px;
+ 
+}
+
+
+.cabecalho-menu2{
+    font-family: 'Akshar', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 220px;
+    display: flex;
+    gap: 60px;
+}
+a{
+    color: white;
+}
+
+a:hover{ 
+ text-decoration: overline;
+ color: yellow;
+  
+   
+}
+
+.conteudo-imagem-principal{
+margin-top: 100px;
+ margin-left: 320px;
+ height: 400px;
+ width: 700px;
+}
+
+.conteudo{
+    margin-left: 120px;
+}
+
+.imagem-captur{
+    width: 500px;
+    height: 250px;
+    margin-right: -45px;
+}
+
+
+.conteudo-secundario{
+    display: flex;
+    font-family: 'Akshar', sans-serif;
+}
+.texto-captur{
+    margin-left: 100px;
+}
+
+.texto2-captur{
+    margin-left: 100px;
+}
+
+
+.texto2-rodape{
+    font-family: 'Akshar', sans-serif;
+    color: white;
+   text-align: right;
+   
+}
+
+.texto1-rodape{
+    font-family: 'Akshar', sans-serif;
+ color: white;
+ margin-left: 20px;
+text-align: left;
+}
+
+.rodape{
+    height: 70px;
+    background-color: black;
+    gap: 1150px;
+    display: flex;
+    align-items: center;
+}
+
+
+.conteudo-forne{
+    margin-top: -100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    gap: 25px;
+      
+}
+
+.inputbox{
+    position: relative;
+    width: 250px;
+}
+
+.inputbox input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    background: white;
+    border-radius: 5px;
+    outline: none;
+   color: black;
+   font-size: 1em;
+}
+
+.inputbox span{
+    font-family: 'Akshar', sans-serif;
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 0.8em;
+    color: black;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.inputbox input:valid ~ span,
+.inputbox input:focus ~ span
+{
+    color: black;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.65em;
+    padding: 0 10px;
+    background: white;
+
+}
+.botao{
+    padding: 10px 35px;
+    font-family: 'Akshar', sans-serif;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.botao:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+  
+}
+.conteudo-funci{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  
+}
+
+
+.cadastrar{
+    margin-left: 90px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: left;
+    min-height: 100vh;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+
+.input2{
+    position: relative;
+}
+
+.input2 input{
+    width: 30%;
+    padding: 10px;
+    border: 1px solid black;
+    background: white;
+    border-radius: 5px;
+    outline: none;
+   color: black;
+   font-size: 1em;
+}
+
+.input2 span{
+    font-family: 'Akshar', sans-serif;
+    position: absolute;
+    left: 115px;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 0.8em;
+    color: black;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.input2 input:valid ~ span,
+.input2 input:focus ~ span
+{
+    color: black;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.65em;
+    padding: 0 10px;
+    background: white;
+
+}
+
+.botao2{
+    display: flex;
+    margin-top: -63px;
+    margin-left: 170px;
+    padding: 10px 35px;
+    font-family: 'Akshar', sans-serif;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.botao2:hover{
+  
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+   
+  
+}
+.exibir{
+    margin-left: 850px;
+   margin-top: -780px;
+    display: flex;
+    justify-content: left;
+    min-height: 100vh;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input3{
+    position: relative;
+}
+
+.input3 input{
+    width: 50%;
+    padding: 10px;
+    border: 1px solid black;
+    background: white;
+    border-radius: 5px;
+    outline: none;
+    color: black;
+    font-size: 1em;
+}
+
+.input3 span{
+    font-family: 'Akshar', sans-serif;
+    position: relative;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 0.8em;
+    color: black;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.cadastrar-pedido{
+    margin-top: 150px;
+   margin-left: 150px;
+}
+
+#selecao{
+    font-family: 'Akshar', sans-serif;
+   border-style: solid;
+   border-radius: 10px;
+   width: 30%;
+}
+
+#selecao:hover{
+    font-family: 'Akshar', sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.date1{
+    display: flex;
+    margin-top: 30px;
+}
+
+.conteudo-pedido{
+    justify-content: center;
+    align-items: center;
+}
+
+.conceito{
+    border-style: solid;
+  border-radius: 10px;
+    margin-top: -250px;
+    margin-left: 750px;
+    display: flex;
+    width: 650px;
+    
+}
+
+.img-grafico{
+    width: 600px;
+  margin-left: 480px;
+}
+
+#SexoFunci{
+   font-family: 'Akshar', sans-serif;
+   width: 325px;
+   height: 35px;
+   border-color: black;
+   cursor: pointer;
+   border-radius: 5px;
+   outline: none;
+   color: black;
+   font-size: 1em;
+
+}
+
+#SetorFunci{
+    font-family: 'Akshar', sans-serif;
+    width: 325px;
+    height: 35px;
+    border-color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    color: black;
+    font-size: 1em;
+ 
+ }
+
+
